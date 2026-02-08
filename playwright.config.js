@@ -11,6 +11,7 @@ module.exports = defineConfig({
     baseURL: 'https://www.bestbuy.com',
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
+    headless: false,
   },
 
   projects: [
